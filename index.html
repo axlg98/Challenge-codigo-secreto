@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+     <div class="container">
+       <h1 class="titulo"> Bienvenido al código secreto</h1>
+         <main class= "main">
+             <section class= "form box">
+                 <form action="">
+                     <label for="input-texto"> Solamente se permiten letras minúsculas.</label>
+                     <textarea class="text-input" name="input-texto" cols="30" rows="10" id="encriptador" placeholder="Ingrese el texto aquí para ver el mensaje oculto"></textarea>
+                     <input class= "btn-enc" type ="button" value="Encriptador" id="btn-Encriptador">
+                     <input class= "btn-des" type="button" value= "Desencriptador" id="btn-Desencriptador">
+                     <br> 
+                     <br>
+                     <textarea class="secreto-input" name="input-secreto" cols="30" rows= "10" id="secreto" placeholder="El mensaje secreto es..." disabled></textarea>
+                     <input class= "btn-copy" type ="button" value= "copiar" id="copy">
+                 </form>
+             </section>
+         </main>
+     </div>
+         <script src="script.js"></script>
+         <footer class= "footer"> <span>D</span>esign by Axel Iván García</footer>
+</body>
+</html>
+
