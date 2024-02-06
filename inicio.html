@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/boton.css"/>
+    <link rel="stylesheet" href="./css/reglas.css"/>
+</head>
+    <body>
+        <header>
+            <h1 class="titulo"> Bienvenido al código secreto</h1>
+         </header>
+         <main>
+            <div class="boton">
+                <button onclick="btnIncio()" class="btn_inicio">Iniciar</button>
+            </div>
+            <section class="reglas">
+                <div class="div_regla">
+                    <h2 class="titulo_reglas">Reglas de juego</h2>
+                    <ul class="lista_reglas">
+                        <li class="list">No se puede utilizar números, tampoco letras mayúsculas, ni carácteres  especiales.</li>
+                    </ul>
+                </div>
+                <div class="div_regla">
+                    <h2 class="titulo_reglas"> Como se juega</h2>
+                    <ul class="lista_reglas">
+                        <li class="list">Cada palabra que se escribe, al encriptar el texto hace cambiar las vócales del texto dado</li>
+                        <li class="list">Cada palabra que esté ya encriptado, al querer desencriptar vuelve al texto original</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer class="footer_inicio">
+            <p class="p_footer"> &copy Derechos reservados</p>
+        </footer>
+        <script src="./js/boton.js"></script>
+    </body>
+</html>

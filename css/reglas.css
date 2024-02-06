@@ -1,0 +1,26 @@
+.reglas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.div_regla{
+    margin: 2.1rem;
+}
+
+.titulo_reglas{
+    text-align: center;
+    margin: 0.9rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.lista_reglas{
+    list-style: decimal;
+}
+
+.list{
+    font-weight: bold;
+    padding: 0.9rem;
+}
