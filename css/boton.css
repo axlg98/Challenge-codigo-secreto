@@ -23,3 +23,9 @@
     cursor: pointer;
     font-size: 18px;
 }
+
+@media (min-width: 0px) and (max-width: 1000px) {
+    .btn_inicio{
+    width: 20%;
+    }
+}
