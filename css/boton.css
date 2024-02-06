@@ -2,10 +2,11 @@
     align-items: center;
     display: flex;
     margin-left: 45%;
+    width: 33.33%;
 }
 
 .btn_inicio{
-    width: 10%;
+    width: 110px;
     height: 50px;
     margin: 0 30px;
     transition: 1000ms;
@@ -26,6 +27,8 @@
 
 @media (min-width: 0px) and (max-width: 1000px) {
     .btn_inicio{
-    width: 45%;
+    width: 55px;
+    justify-content: center;
+    align-items: center;
     }
 }
