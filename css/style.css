@@ -145,7 +145,7 @@ footer{
   }
 
   .footer_inicio{
-    position: none;
+    position: relative;
   }
 
 }
@@ -163,6 +163,10 @@ footer{
   .btn-des{
     margin-left: 0;
     margin-top: 0.9rem; 
+  }
+
+  .footer_inicio{
+    position: relative;
   }
   
 }
