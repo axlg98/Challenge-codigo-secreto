@@ -30,8 +30,16 @@ footer{
   padding: 10px;
   width: 100%;
   text-align: center;
+}
+
+.footer_inicio{
   position: absolute;
   bottom: 0;
+}
+
+.footer_index{
+  position: relative;
+
 }
 
 .p_footer{
