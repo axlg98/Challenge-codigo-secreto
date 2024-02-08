@@ -125,7 +125,7 @@ footer{
 }
 
 ::placeholder{
-  color: red;
+  color: black;
 }
 
 
@@ -161,13 +161,19 @@ footer{
   }
   .btn-des{
     margin-left: 0;
-    margin-top: 0.9rem; 
+    float: left;
+    margin: 0.9rem auto;
   }
 
   .footer_inicio{
     position: relative;
   }
   
+  .box{
+    margin: 1.5rem auto;
+    text-shadow: 1px 1px 2px black;
+  }
+
 }
 
 @media  (min-width:1000px) and (max-width: 1550px) {
