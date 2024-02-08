@@ -140,11 +140,17 @@ footer{
 
   .btn-des{
     display: inline-flex;
-    margin-top: 0.5rem;
+    float: left;
+    margin: 0.9rem auto;
   }
 
   .footer_inicio{
     position: relative;
+  }
+
+  .box{
+    margin: 1.5rem auto;
+    text-shadow: 1px 1px 2px black;
   }
 
 }
@@ -159,6 +165,7 @@ footer{
   .main {
     min-height: 85vh;
   }
+
   .btn-des{
     margin-left: 0;
     float: left;
