@@ -143,6 +143,11 @@ footer{
     margin-left: 0.5rem;
     margin-top: 0.5rem;
   }
+
+  .footer_inicio{
+    position: none;
+  }
+
 }
 @media(max-width: 500px) {
   .container{
